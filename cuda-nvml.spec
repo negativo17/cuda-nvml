@@ -8,7 +8,7 @@
 
 Name:           cuda-nvml
 Epoch:          1
-Version:        13.2.51
+Version:        13.3.29
 Release:        1%{?dist}
 Summary:        NVIDIA Management library (NVML)
 License:        CUDA Toolkit
@@ -73,6 +73,9 @@ sed -i \
 %{_libdir}/pkgconfig/nvidia-ml.pc
 
 %changelog
+* Wed Jul 22 2026 Simone Caronni <negativo17@gmail.com> - 1:13.3.29-1
+- Update to 13.3.29.
+
 * Thu Mar 19 2026 Simone Caronni <negativo17@gmail.com> - 1:13.2.51-1
 - Update to 13.2.51.
 
